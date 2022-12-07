@@ -1,0 +1,18 @@
+.contCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+    /* gap: 20px; */
+    flex-grow: 1;
+    padding-inline: 0.5rem;
+  }
+
+  .pokeball {
+    height: 200px;
+  }
+  .poke {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

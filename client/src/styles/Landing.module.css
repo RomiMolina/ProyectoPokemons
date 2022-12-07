@@ -1,0 +1,99 @@
+.background {
+    background-color: transparent;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 100vh;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    padding-left: 1rem;
+  }
+
+  .contIzq {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 30px;
+  }
+
+  .logo {
+    width: 82%;
+    filter: drop-shadow(0px 3px 4px rgba(0, 0, 0, 0.4));
+    margin-left: 8%;
+    margin-top: 5%;
+  } 
+  .contTitle {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    padding: 10%
+  }
+  .title {
+    display: flex;
+    font-size: clamp(2.5rem, 1rem + 8vw, 4.9rem);
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-weight: 370;
+    font-size: 64px;
+  }
+  .paragraph {
+    margin-top: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 25px;
+    position: relative;
+  }
+
+  .button {
+    margin-left: 20%;
+    margin-top: 5%;
+    display: flexbox;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 160%;
+    font-weight: 100;
+    color: #fff;
+    background-color:rgba(0, 0, 139, 0.858);
+    box-shadow: 0 2rem 4rem var(--black);
+    transition: all 0.3s;
+    font-weight: 540;
+    min-height: 60px;
+    min-width: 140px;
+    border-radius: 1.3rem;
+    cursor: pointer;
+    border: none;
+ 
+  }
+  .button:hover {
+    color: darkblue;
+    background-color: transparent;
+    border: none;
+    transform: scale(1.5);
+  }
+
+  .contDer {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 20%;
+    padding: auto;
+    margin-right: 460px;
+  }
+
+  .pikachuImg {
+    margin-top: 20px;
+    image-rendering: optimizeQuality;
+    min-height: 70%;
+    position: -ms-page ;
+    height: 90vh;
+    border-radius: 50%;
+    margin-left: 70%;
+    margin-right: 30%;
+    /* box-shadow: 10px 5px 5px black; */
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  }  
+
+  .contDer:hover .pikachuImg {-webkit-transform:scale(1.5);transform:scale(1.2);
+        border-radius: 50%;}
+  .contDer {overflow:visible;}
