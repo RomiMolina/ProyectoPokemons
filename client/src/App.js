@@ -5,7 +5,7 @@ import Home from "./components/Home.js"
 import Detail from './components/Detail.js';
 import CreatePokemon from './components/CreatePokemon.js';
 import axios from 'axios';
-axios.defaults.baseURL = "https://pipokemons-production-b06b.up.railway.app/";
+axios.defaults.baseURL = "http://localhost:3001";
 
 
 function App() {
