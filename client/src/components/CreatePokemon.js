@@ -37,7 +37,6 @@ export default function CreatePokemon(){
 
     const [input , setInput] = useState({
         name: "",
-        dueño:"",
         hp: "",
         attack: "",
         defense: "",
