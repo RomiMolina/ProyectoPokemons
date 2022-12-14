@@ -3,7 +3,7 @@ const {Pokemon , Type} = require("../db.js");
 
 const getApiInfo = async ()=>{
     try {
-        const firstPokemon = await axios.get("https://pokeapi.co/api/v2/pokemon");
+        const firstPokemon = await axios.get('https://pokeapi.co/api/v2/pokemon');
         const secondPokemon = await axios.get(firstPokemon.data.next);
         const totalPokemon = firstPokemon.data.results.concat(
             secondPokemon.data.results
